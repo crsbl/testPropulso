@@ -1,0 +1,110 @@
+@media only screen and (max-width: 600px) {
+  .sectionContainerProduct {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .divContainerGalleryProfessional {
+    margin: 2rem 0 0 0;
+  }
+
+  .divcontainerProfessional {
+    margin: 3rem 0 0 0;
+    gap: 0.5rem;
+    padding: 0;
+    align-items: center;
+  }
+  .divcontainerProfessional > h2:nth-child(1) {
+    font-size: 1rem;
+  }
+  .divcontainerProfessional > h2:nth-child(2) {
+    font-size: 2rem;
+  }
+
+  .divContainerSubscription02 {
+    flex-flow: column nowrap;
+  }
+  .divContainerSubscription00 {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .divContainerSubscription01 {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .divContainerSubscription02 > input {
+    width: 70vw;
+  }
+
+  .divContainerGalleryProfessional {
+
+    grid-template-columns: repeat(8, 9vw);
+    grid-template-rows: repeat(5, 6rem);
+    gap:1rem;
+    justify-content: center   ;
+  }
+  
+  #imgGallery03 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  #imgGallery01 {
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 9;
+  }
+  
+  #imgGallery00 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 9;
+  }
+  #imgGallery02 {
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .divContainerGalleryProfessional > img {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .imgSlider {
+    height: 22rem;
+    object-fit: cover;
+  }
+
+  nav > ul > li:nth-child(1){
+      display: none;
+  } 
+  nav > ul > li:nth-child(2){
+    display: none;
+} 
+nav > ul > li:nth-child(3){
+    display: none;
+} 
+nav > ul > li:nth-child(4){
+    display: none;
+} 
+nav > ul > li:nth-child(5){
+    display: none;
+} 
+nav > ul > li:nth-child(8){
+    display: block;
+} 
+
+nav > ul {
+padding: 0 2rem 0 0;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 1rem;
+  }
+
+}

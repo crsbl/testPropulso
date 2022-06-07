@@ -1,0 +1,290 @@
+@font-face {
+  src: url('../images//Roboto-Regular.ttf'); /* IE9 Compat Modes */
+
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+}
+
+.divContainerMsj {
+  padding: 0.3rem 0 0.3rem 0;
+  width: 99vw;
+  text-align: center;
+  background-color: #4938b5;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0 1rem 3rem;
+  overflow: hidden;
+}
+
+nav > img {
+  width: 8rem;
+  height: 1.5rem;
+}
+
+nav > ul {
+    gap: 2.5rem;
+    align-items: center;
+list-style-type: none;
+padding: 0 4rem 0 0;
+
+}
+
+nav > ul > li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  
+}
+nav > ul > li > a{
+text-decoration: none;
+
+}
+.imgSlider {
+  width: 99vw;
+}
+.divContainerIllustrationProduct {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.divContainerIllustrationProduct > span {
+  width: 0;
+  height: 0;
+  border-right: 2.5rem solid transparent;
+  border-top: 2.5rem solid #5943e3;
+  border-left: 2.5rem solid #5943e3;
+  border-bottom: 2.5rem solid transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.divContainerIllustrationProduct > img {
+  width: 17.5rem;
+  height: 17.5rem;
+}
+
+.divContainerIllustrationProduct > span > h4:first-child {
+  font-family: 'Roboto ', sans-serif;
+  color: #ffffff;
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+}
+.divContainerIllustrationProduct > span > h4:last-child {
+  font-family: 'Roboto ', sans-serif;
+  color: #ffffff;
+  position: absolute;
+  top: -2rem;
+  left: 11rem;
+  background-color: red;
+  padding: .8rem .5rem .8rem .5rem;
+  border-radius:50%;
+}
+.divContainerInfoProduct {
+  background-color: #ededed;
+  padding: 1rem;
+}
+
+.divContainerInfoProduct > p {
+  width: 60%;
+  justify-content: space-between;
+}
+
+.divContainerInfoProduct > p:first-child {
+  font-family: 'Roboto ', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  color: #272727;
+  width: 70%;
+}
+.divContainerInfoProduct > p > span {
+  font-family: 'Roboto ', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  color: #272727;
+  padding: .8rem 0 .8rem 0;
+}
+
+.divContainerInfoProduct > p > span:first-child {
+  color: #6C757D; 
+  text-decoration:line-through;
+  font-size: 1.4rem;
+}
+.divContainerInfoProduct > p > span:last-child {
+  font-size: 1.4rem;
+  color: #4938b5;
+}
+.divContainerProduct {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+
+.divContainerInfoProduct > a {
+  background-color: #4938b5;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.2rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.divContainerInfoProduct > a > svg {
+  padding: 0 0.3rem 0 0;
+}
+
+.sectionContainerProduct {
+  gap: 3rem;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+}
+
+.divcontainerProfessional {
+  margin: 3rem 0 0 0;
+  gap: 1rem;
+  padding: 0 3rem 0 3rem;
+}
+
+.divcontainerProfessional > h2{
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto ', sans-serif;
+
+}
+
+.divcontainerProfessional > h2:nth-child(1){
+  color: #1d0d85;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.divcontainerProfessional > h2:nth-child(2){
+  color: #1d0d85;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+
+}
+
+.divContainerGalleryProfessional {
+  display: grid;
+  grid-template-columns: repeat(8, 10.5vw);
+  grid-template-rows: repeat(5, 6rem);
+  gap:1rem;
+  justify-content: center   ;
+}
+
+.divContainerGalleryProfessional > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#imgGallery03 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+#imgGallery01 {
+  grid-row-start: 1;
+  grid-row-end: 6;
+  grid-column-start: 5;
+  grid-column-end: 9;
+}
+
+#imgGallery00 {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+#imgGallery02 {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.divContainerSubscription00{
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: #EDEDED;
+    align-items: center;
+}
+
+
+.divContainerSubscription02{
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.divContainerSubscription02 > input{
+width: 30rem;
+font-size: 1rem;
+padding: .3rem 0 .3rem 0;
+border:0;
+}
+
+.divContainerSubscription02 > button{
+    gap: 1rem;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #4938B5;
+    border:0;
+    color:#FFFFFF;
+    border-radius: 2rem;
+    font-family: 'Roboto ', sans-serif;
+   font-size: 1.1rem;
+    text-transform: uppercase;
+
+}
+nav > ul > li:nth-child(8){
+  display: none;
+} 
+.divContainerSubscription01 {
+  font-family: 'Roboto ', sans-serif;
+font-style: normal;
+}
+.divContainerSubscription01 >h3{
+  color: #272727;
+}
+.divContainerSubscription01 >p{
+  color: #72757E;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(203, 213, 223);
+  border-radius: 1rem;
+  transition: 1s;
+  box-shadow: -0.5vh 0vh 1vh 0vh rgba(93, 111, 114, 0.075);
+}
+
+body::-webkit-scrollbar {
+  width: 1vw;
+  height: 0rem;
+
+  transition: 1s;
+}
