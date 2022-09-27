@@ -17,7 +17,7 @@ function App() {
       <header>
         <div class="container flexColumn">
           <nav className="flexRow">
-            <img src={logo} alt="Logo" />
+            
             <ul className="flexRow">
               <li>
                 <a href="#">Nosotros</a>
